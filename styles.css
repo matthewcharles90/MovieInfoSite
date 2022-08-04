@@ -1,0 +1,43 @@
+/* Import Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@100;300;400;700&family=Rubik:ital,wght@0,300;0,400;0,500;1,800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.container {
+    font-size: 20px;
+    background-color: coral;
+    width: 90vw;
+    max-width: 40em;
+    padding: 3em 1.8em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 6em;
+    box-shadow: 2em 3em 3em;
+}
+
+.search-container input
+.search-container button{
+    font-size: 0.9em;
+    outline: none;
+    border-radius: 0.3em;
+
+}
+
+.search-container input {
+    background-color: transparent;
+    border: 1px solid #c28121;
+    padding: 0.7em;
+}
