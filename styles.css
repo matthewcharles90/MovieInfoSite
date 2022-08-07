@@ -14,49 +14,41 @@ body {
     background-color: aquamarine;
 }
 
-.container {
-    font-size: 20px;
-    background-color: coral;
-    width: 90vw;
-    max-width: 40em;
-    padding: 3em 1.8em;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    border-radius: 6em;
-    box-shadow: 2em 3em 3em;
+.header {
+  padding: 2em;
+  display: flex;
+  justify-content: flex-end;
+
     
 }
 
-.search-container {
-    display: grid;
-    grid-template-columns: 9fr 3fr;
-    gap: 1.2em;
-}
-
-.search-container input
-.search-container button{
-    font-size: 0.9em;
-    outline: none;
-    border-radius: 0.3em;
-
-}
-
-.search-container input {
+.search {
     background-color: transparent;
-    border: 1px solid #c28121;
-    padding: 0.7em;
-    color: aliceblue;
+    border: 2px solid #fff;
+    padding: 0.5rem 1rem;
 }
 
-.search-container input:focus {
-    border-color: aliceblue;
+.search:focus {
+    outline: 0;
+    background-color: beige;
 }
 
-.search-container button {
-    background-color: darkkhaki;
-    border: none;
-    cursor: pointer;
+.search::placeholder{
+    color: #73785c;
 }
+
+#main{
+    display: flex;
+}
+
+.movie{
+    width: 300px;
+}
+
+
+
+.movie img {
+    width: 100%;
+}
+
 
